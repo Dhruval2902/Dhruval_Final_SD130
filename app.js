@@ -20,7 +20,9 @@ if (playGame) {
 }
 
 function validateGuess(guess) {
-  if (guess < 1) {
+  if (isNaN(guess)) {
+    alert('Please enter a valid number');
+  } else if (guess < 1) {
     alert('Please enter a number greater than 1!');
   } else if (guess > 100) {
     alert('Please enter a number less than 500!')
@@ -68,5 +70,20 @@ function endGame() {
   startOver.appendChild(p);
   playGame = false;
   newGame();
+}
+
+function newGame() {
+  const newGameButton = document.querySelector('#newGame');
+  newGameButton.addEventListener('click', function () {
+    randomNumber = parseInt((Math.random() * 100) + 1);
+    previousGuesses = [];
+    numGuesses = 1;
+    guessSlot.innerHTML = '';
+    lowOrHi.innerHTML = '';
+    remaining.innerHTML = `${11 - numGuesses}  `;
+    userInput.removeAttribute('disabled');
+    startOver.removeChild(p);
+    playGame = true;
+  })
 }
 
