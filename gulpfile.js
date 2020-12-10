@@ -1,4 +1,5 @@
 const {src, dest, series} = require('gulp');
+const imagemin = require('gulp-imagemin')
 
 function htmlTask() {
   return src('src/*.html')
@@ -15,4 +16,10 @@ function scriptsTask() {
   .pipe(dest('dist'))
 }
 
-exports.default = series(htmlTask, stylesTask, scriptsTask)
+function imagesTask() {
+  return src('src/images/*')
+  .pipe(imagemin())
+  .pipe(dest('dist/images'))
+}
+
+exports.default = series(htmlTask, stylesTask, scriptsTask, imagesTask)

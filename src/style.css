@@ -7,7 +7,8 @@ body {
     max-width: 750px;
     min-width: 480px;
     margin: 0 auto;
-}
+    background-image: url('images/bg.jpg');
+  }
 
 .lastResult {
     color: white;
