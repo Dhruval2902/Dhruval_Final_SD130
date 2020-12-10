@@ -1,22 +1,14 @@
 {
-  "name": "src",
+  "name": "Dhruval_Number_Game",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dhruval2902/Dhruval_Final_SD130.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Dhruval2902/Dhruval_Final_SD130/issues"
-  },
-  "homepage": "https://github.com/Dhruval2902/Dhruval_Final_SD130#readme",
   "devDependencies": {
     "gulp": "^4.0.2"
   }
