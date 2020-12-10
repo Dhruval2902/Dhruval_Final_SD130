@@ -1,0 +1,144 @@
+    1  cd ~/Desktop/Dhruval_Number_Game
+    2  ls -la
+    3  mkdir src
+    4  mv ~/Desktop/Dhruval_Number_Game/. ~/Desktop/Dhruval_Number_Game/src
+    5  mv ~/Desktop/Dhruval_Number_Game/app.js ~/Desktop/Dhruval_Number_Game/src
+    6  mv ~/Desktop/Dhruval_Number_Game/index.html ~/Desktop/Dhruval_Number_Game/src
+    7  mv ~/Desktop/Dhruval_Number_Game/style.css ~/Desktop/Dhruval_Number_Game/src
+    8  ls
+    9  cd ~/Desktop/Dhruval_Number_Game/src
+   10  ls
+   11  less app.js
+   12  git add .
+   13  git init
+   14  git add .
+   15  git commit -m "Inital commit"
+   16  git status
+   17  git log
+   18  git remote add origin https://github.com/Dhruval2902/Dhruval_Final_SD130.git
+   19  git branch new-feature
+   20  git checkout new-feature
+   21  code ,
+   22  code .
+   23  git add .
+   24  git status
+   25  git commit -m "Added new feature - alert when NAN is a input"
+   26  less app.js
+   27  git log
+   28  git --merge
+   29  git --merge master
+   30  git merge master
+   31  git merge new-feature
+   32  git checkout master
+   33  git status
+   34  git commit -m "added new feature"
+   35  git add app.js
+   36  git commit -m "added a new feature"
+   37  git merge new-feature
+   38  gti checkout master
+   39  git checkout master
+   40  git log
+   41  git checkout new-feature
+   42  git log
+   43  git checkout master
+   44  git merge new-feature
+   45  git log
+   46  git status
+   47  git checkout new-feature
+   48  git checkout master
+   49  ls
+   50  less app.js
+   51  git branches
+   52  git branch
+   53  git branch -d new-feature
+   54  git branch
+   55  git commit -m "Deleted new-feature branch"
+   56  git log
+   57  git add .
+   58  git status
+   59  gig log
+   60  git log
+   61  git commit -m "Deleted branch new-feature"
+   62  git log
+   63  git add .
+   64  git status
+   65  git tag 98a8d88 version-1.0
+   66  git tag -a v1.0 98a8d88 -m "Tag commit"
+   67  git log
+   68  git reset --soft Head~1
+   69  git log
+   70  git tag -a v1.0 eab601c -m "Tag commit"
+   71  git tag -a v1.1 eab601c -m "Tag commit"
+   72  git log
+   73  git status
+   74  git add .
+   75  git status
+   76  git add app.js
+   77  git status
+   78  git commit -m "Deleted branch new-feature"
+   79  git log
+   80  git reset --soft Head~1
+   81  git commit -m "Merged and deleted branch new-feature"
+   82  git log
+   83  ls 
+   84  touch .gitignore
+   85  code .
+   86  git status
+   87  git add .
+   88  git status
+   89  git commit -m "Added new feature (new game) and added file gitignore"
+   90  git log
+   91  git tag -a v1.2 982c091 -m "Tag commit"
+   92  git log
+   93  npm init --yes
+   94  npm i -g gulp
+   95  touch gulpfile.js
+   96  git add .
+   97  git status
+   98  git commit -m "installed npm and added gulpfile.js "
+   99  git log
+  100  npm i --save-dev gulp
+  101  git add .gitignore
+  102  git status
+  103  git commit -m "added node_modules into gitignore"
+  104  git add .
+  105  git commit -m "Installed npm package gulp"
+  106  git status
+  107  git log
+  108  code .
+  109  gulp
+  110  gulp html
+  111  gulp html
+  112  code .
+  113  cd ~/Desktop/Dhruval_Number_Game
+  114  code .
+  115  gulp 
+  116  ls
+  117  git status
+  118  git add .
+  119  git status 
+  120  git commit -m "gulp src to dist"
+  121  git log
+  122  gulp
+  123  gulp
+  124  git add .
+  125  git status
+  126  npm install --save-dev gulp-imagemin
+  127  git add .
+  128  git status
+  129  git commit -m "Optimized images with gulp imagemin and added background image"
+  130  git log
+  131  npm i --save-dev gulp-postcc autoprefixer cssnano gulp-sourcemaps gulp-concat
+  132  npm i --save-dev gulp-concat
+  133  npm i --save-dev gulp-sourcemaps
+  134  gulp
+  135  git add .
+  136  git commit -m "css and js files
+git commit -m "css and js files
+  137  npm i --save-dev gulp-uglify
+  138  npm install gulp-typescript typescript
+  139  git add .
+  140  git commit -m "concate and uglify/minify js file, corrected background image issue"
+  141  git push
+  142  git push -u origin master
+  143  history >> Dhruval-history.txt
